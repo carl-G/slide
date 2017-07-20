@@ -1,0 +1,35 @@
+.banner-box {width: 100%;height: 520px;min-width: 1200px;overflow: hidden;position: relative;}
+.banner-box .banner {width: 100%;height: 520px;position: absolute;top: 0;left: 0;}
+.banner-box .banner .slide {position: absolute;width: 50%;height: 50%;}
+.banner-box .btn {top: calc(50% - 35px);position: absolute;width: 100%;}
+.banner-box .btn .prev {left: 20px;}
+.banner-box .btn .next {right: 20px;}
+.banner-box .btn .button {width: 70px;height: 70px;line-height:70px;font-size: 60px;font-weight: 400;position: absolute;color: #fff;z-index: 1000;cursor: pointer;
+transition: background-color .5s;text-align: center;}
+.banner-box .btn .button:hover {background-color: rgba(0,0,0,.3);}
+.top-left{top: 0;left: 0;background-position: 0 0;}
+.top-right{top: 0;right: 0;background-position: 100% 0;}
+.bottom-left{bottom: 0;left: 0;background-position: 0 100%;}
+.bottom-right{bottom: 0;right: 0;background-position: 100% 100%; }
+.banner-box .banner .bac {background-repeat: no-repeat;}
+.banner-box .banner1 .slide {background-image: url('../images/1.jpg');background-size: 200% 200%;}
+.banner-box .banner2 .slide {background-image: url('../images/2.jpg');background-size: 200% 200%;}
+.banner-box .banner3 .slide {background-image: url('../images/1.jpg');background-size: 200% 200%;}
+.banner-box .banner4 .slide {background-image: url('../images/2.jpg');background-size: 200% 200%;}
+.banner-box .this {z-index: 999;} 
+.banner-box .next {z-index: 998;} 
+
+#slider {position: relative;height: inherit;overflow: hidden;}
+#slider .slide{float: left;width: 100%;height: inherit;position: absolute;}
+#slider .slide .img-part-topLeft {position: absolute;width: 50%;height: 50%;top: 0;left: 0;}
+#slider .slide .img-part-topRight {position: absolute;width: 50%;height: 50%;top: 0;right: 0;}
+#slider .slide .img-part-bottomLeft {position: absolute;width: 50%;height: 50%;bottom: 0;left: 0;}
+#slider .slide .img-part-bottomRight {position: absolute;width: 50%;height: 50%;bottom: 0;right: 0;}
+.img-part-warpper{width: 100%;height: 100%;position: absolute;}
+.imgwrapper {width: 200%;height: 200%;}
+.img-part-topRight .imgwrapper{position: absolute;top: 0;right: 0;}
+.img-part-bottomLeft .imgwrapper{position: absolute;bottom: 0;left: 0;}
+.img-part-bottomRight .imgwrapper{position: absolute;bottom: 0;right: 0;}
+.imgwrapper .image {width: 100%;height: 100%;display: inline-block;}
+.imgwrapper .image img {width: 100%;height: 100%;display: inline-block;}
+#slider .slide .img-part{overflow: hidden;}
